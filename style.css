@@ -39,3 +39,7 @@ ol {
 ol>li {
     font-weight: bold;
 }
+
+ul>li:nth-child(odd) {
+    color: #1eb2de;
+}
