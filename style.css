@@ -36,10 +36,14 @@ ol {
     color: #1D3557;
     background-color: #F1FAEE;
 }
-ol>li {
-    font-weight: bold;
-}
-
 ul>li:nth-child(odd) {
     color: #1eb2de;
+}
+ol>li {
+    font-weight: bold;
+    color: orange;
+}
+
+ol {
+    color: lavender;
 }
