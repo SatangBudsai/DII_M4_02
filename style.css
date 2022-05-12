@@ -1,63 +1,19 @@
-div {
-	color: black;
-	/* 001 */
-}
-div p {
-	color: white;
-	/* 002 */
-}
-.div1 p {
-	color: orange;
-	/* 002 */
-}
-div.div1 p {
-	color: red;
-	/* 002 */
-}
+
 #div1 p {
 	color: green;
 	/* 101 */
-}
-#x1 {
-	color: brown;
-	/* 100 */
 }
 div #x1 {
 	color: red;
 	/* 101 */
 }
-div p:first-child {
-	color: brown;
-	/* 012 */
-
-}
 .x2 {
 	color: teal;
 	/* 010 */
 }
-div span {
-	color: yellow;
-	/* 002 */
-}
-div > span {
-	color: lightblue;
-	/* 002 */
-}
-p span {
-	color: gold;
-	/* 002 */
-}
 p #x2 {
 	color: purple;
 	/* 101 */
-}
-p span.x2 {
-	color: beige;
-	/* 012 */
-}
-p > .x2 {
-	color: maroon;
-	/* 011 */
 }
 div > span {
 	color: blue;
