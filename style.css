@@ -1,49 +1,48 @@
-body {
-    background-color: #1D3557;
+div {
+	color: black;
 }
-
-h1 {
-    color: #e13342;
+div p {
+	color: white;
 }
-
-ul {
-    list-style-type: none;
-    color: #A8DADC;
+.div1 p {
+	color: orange;
 }
-
-ul li::before {
-    content: "\2022";
-    /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #E63946;
-    /* Change the color */
-    font-weight: bold;
-    /* If you want it to be bold */
-    display: inline-block;
-    /* Needed to add space between the bullet and the text */
-    width: 1em;
-    /* Also needed for space (tweak if needed) */
-    margin-left: -2em;
-    /* Also needed for space (tweak if needed) */
+div.div1 p {
+	color: red;
 }
-
-ol {
-    color: #F1FAEE;
+#div1 p {
+	color: green;
 }
-.non_sporting {
-    background-color: #45789D;
+#x1 {
+	color: brown;
 }
-#corgi {
-    color: #1D3557;
-    background-color: #F1FAEE;
+div #x1 {
+	color: red;
 }
-ul>li:nth-child(odd) {
-    color: #1eb2de;
+div p:first-child {
+	color: brown;
 }
-ol>li {
-    font-weight: bold;
-    color: orange;
+.x2 {
+	color: teal;
 }
-
-ol {
-    color: lavender;
+div span {
+	color: yellow;
+}
+div > span {
+	color: lightblue;
+}
+p span {
+	color: gold;
+}
+p #x2 {
+	color: purple;
+}
+p span.x2 {
+	color: beige;
+}
+p > .x2 {
+	color: maroon;
+}
+div > span {
+	color: blue;
 }
